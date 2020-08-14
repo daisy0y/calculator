@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    border: solid 1px;
+    background-color: black;
+    width: 430px;
+    border-radius: 5px;
+    
+}
+
+table{
+    justify-content: center;
+    text-align: center;
+    border-spacing: 10px;
+    cursor: pointer;
+    
+}
+tr,td:active{
+    background-color:#747d8c;
+}
+
+
+tr,td{
+    width: 90px;
+    height: 45px;
+    border: solid 1px none;
+    border-radius: 18px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: #3d3d3d;
+    color: white;
+  
+   
+    
+}
+
+#result,#resultTr{
+    background-color: black;
+    border-radius: none;
+    text-align: right;
+}
+
+.operator{
+    background-color: #f39c12;
+}
+
+.reset{
+    background-color: #95a5a6;
+}
